@@ -21,7 +21,7 @@ export default handleActions({
   }),
   GET_PRODUCTS_SUCCESS: (state, { payload }) => ({
     ...state,
-    objects: payload.data.objects,
+    objects: payload.data,
     loading: false,
   }),
   GET_PRODUCTS_ERROR: (state, { payload }) => ({
