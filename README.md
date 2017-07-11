@@ -1,5 +1,6 @@
 # React Redux By Example
 
+
 ## Installation
 ```
 npm install
@@ -7,9 +8,10 @@ npm install
 
 ## Development
 ```
-1. npm start
-2. open browser http://localhost:8080
-3. API_URL is set to http://localhost:8000/api/ by default
+1. json-server db.json --delay 1000
+2. npm start
+3. open browser http://localhost:8080
+4. API_URL is set to http://localhost:3000/ by default
 ```
 
 ## Build
